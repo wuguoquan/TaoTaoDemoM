@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.wugq.taotao.test.SSMTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.184 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.032 sec

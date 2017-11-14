@@ -3,18 +3,18 @@ package com.wugq.taotao.test.controller;
 
 import com.wugq.taotao.test.pojo.SysUser;
 import com.wugq.taotao.test.service.SysUserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.annotation.Resource;
-
 @Controller
 @RequestMapping("/sysUserController")
 public class SysUserController {
-	@Resource
+
+	@Autowired
 	private SysUserService sysUserService;
 	
 	@RequestMapping("/showUserToJspById/{userId}")

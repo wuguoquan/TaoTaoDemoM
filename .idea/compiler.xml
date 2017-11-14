@@ -7,6 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="taotao-common" />
+        <module name="taotao-manager-mapper" />
+        <module name="taotao-manager-pojo" />
+        <module name="taotao-manager-service" />
+        <module name="taotao-manager-web" />
         <module name="taotao-test-dao" />
         <module name="taotao-test-pojo" />
         <module name="taotao-test-service" />
@@ -15,6 +19,11 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="taotao-common" target="1.8" />
+      <module name="taotao-manager" target="1.5" />
+      <module name="taotao-manager-mapper" target="1.8" />
+      <module name="taotao-manager-pojo" target="1.8" />
+      <module name="taotao-manager-service" target="1.8" />
+      <module name="taotao-manager-web" target="1.8" />
       <module name="taotao-parent" target="1.5" />
       <module name="taotao-test" target="1.5" />
       <module name="taotao-test-dao" target="1.8" />
