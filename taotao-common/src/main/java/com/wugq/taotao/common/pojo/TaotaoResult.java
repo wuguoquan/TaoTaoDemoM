@@ -1,4 +1,4 @@
-package com.wugq.taotao.manager.pojo;
+package com.wugq.taotao.common.pojo;
 
 import java.util.List;
 

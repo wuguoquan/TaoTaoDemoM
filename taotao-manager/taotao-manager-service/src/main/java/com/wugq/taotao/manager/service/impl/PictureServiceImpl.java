@@ -4,9 +4,10 @@ import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Random;
 
+import com.wugq.taotao.common.utils.IDUtils;
 import org.joda.time.DateTime;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -15,8 +16,10 @@ import com.wugq.taotao.manager.service.PictureService;
 @Service
 public class PictureServiceImpl implements PictureService {
 
-	private static final String LOCAL_BASE_PATH = "/home/wuguoquan/Desktop/nginx/image";
-	private static final String WEB_BASE_PATH = "http://192.168.40.133/image";
+	@Value("${NGINX_LOCAL_BASE_PATH}")
+	private String LOCAL_BASE_PATH;
+	@Value("${NGINX_WEB_BASE_PATH}")
+	private String WEB_BASE_PATH;
 
 	@Override
 	public Map uploadPicture(MultipartFile uploadFile) {
@@ -27,7 +30,7 @@ public class PictureServiceImpl implements PictureService {
 			String oldName = uploadFile.getOriginalFilename();
 			//生成新文件名
 			//UUID.randomUUID();
-			String newName = genImageName();
+			String newName = IDUtils.genImageName();
 			newName = newName + oldName.substring(oldName.lastIndexOf("."));
 			//图片上传
 			String imagePath = new DateTime().toString("/yyyy/MM/dd");
@@ -47,18 +50,6 @@ public class PictureServiceImpl implements PictureService {
 			resultMap.put("message", "文件上传发生异常");
 			return resultMap;
 		}
-	}
-
-	public static String genImageName() {
-		//取当前时间的长整形值包含毫秒
-		long millis = System.currentTimeMillis();
-		//long millis = System.nanoTime();
-		//加上三位随机数
-		Random random = new Random();
-		int end3 = random.nextInt(999);
-		//如果不足三位前面补0
-		String str = millis + String.format("%03d", end3);
-		return str;
 	}
 
 	public static boolean uploadImageFile(String basePath,

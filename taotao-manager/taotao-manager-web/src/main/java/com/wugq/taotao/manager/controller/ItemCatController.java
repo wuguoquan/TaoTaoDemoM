@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.wugq.taotao.manager.pojo.EUTreeNode;
+import com.wugq.taotao.common.pojo.EUTreeNode;
 import com.wugq.taotao.manager.service.ItemCatService;
 
 @Controller

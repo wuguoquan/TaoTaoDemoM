@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.wugq.taotao.manager.pojo.EUTreeNode;
+import com.wugq.taotao.common.pojo.EUTreeNode;
 import com.wugq.taotao.manager.mapper.TbItemCatMapper;
 import com.wugq.taotao.manager.pojo.TbItemCat;
 import com.wugq.taotao.manager.pojo.TbItemCatExample;
