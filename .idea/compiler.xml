@@ -11,6 +11,8 @@
         <module name="taotao-manager-pojo" />
         <module name="taotao-manager-service" />
         <module name="taotao-manager-web" />
+        <module name="taotao-portal" />
+        <module name="taotao-rest" />
         <module name="taotao-test-dao" />
         <module name="taotao-test-pojo" />
         <module name="taotao-test-service" />
@@ -25,6 +27,8 @@
       <module name="taotao-manager-service" target="1.8" />
       <module name="taotao-manager-web" target="1.8" />
       <module name="taotao-parent" target="1.5" />
+      <module name="taotao-portal" target="1.8" />
+      <module name="taotao-rest" target="1.8" />
       <module name="taotao-test" target="1.5" />
       <module name="taotao-test-dao" target="1.8" />
       <module name="taotao-test-pojo" target="1.8" />

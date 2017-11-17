@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/taotao-manager-service.iml" filepath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/taotao-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/taotao-manager-web.iml" filepath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/taotao-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-parent/taotao-parent.iml" filepath="$PROJECT_DIR$/taotao-parent/taotao-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-portal/taotao-portal.iml" filepath="$PROJECT_DIR$/taotao-portal/taotao-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-rest/taotao-rest.iml" filepath="$PROJECT_DIR$/taotao-rest/taotao-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-test/taotao-test.iml" filepath="$PROJECT_DIR$/taotao-test/taotao-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-test/taotao-test-dao/taotao-test-dao.iml" filepath="$PROJECT_DIR$/taotao-test/taotao-test-dao/taotao-test-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-test/taotao-test-pojo/taotao-test-pojo.iml" filepath="$PROJECT_DIR$/taotao-test/taotao-test-pojo/taotao-test-pojo.iml" />
