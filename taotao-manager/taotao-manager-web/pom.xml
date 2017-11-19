@@ -64,7 +64,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>${maven-war-plugin.version}</version>
                 <configuration>
-                    <warName>TaoTaoTest</warName>
+                    <warName>TaoTaoManager</warName>
                 </configuration>
             </plugin>
             <!--tomcat7插件-->
